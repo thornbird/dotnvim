@@ -3,3 +3,5 @@ if has('nvim')
 else
   exe 'set viminfo+=n' . g:editor_root . '/tmp/viminfo'
 endif
+
+set mouse=a
