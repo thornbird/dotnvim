@@ -5,6 +5,6 @@ else
 endif
 
 set undofile
-set undodir=$HOME/.vim/tmp/vimundo
+exe 'set undodir=' . g:editor_root . '/tmp/vimundo'
 
 set mouse=a
