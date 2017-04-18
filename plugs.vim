@@ -17,6 +17,7 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-endwise'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'editorconfig/editorconfig-vim'
 
 Plug 'vim-syntastic/syntastic'
 if has("nvim")
