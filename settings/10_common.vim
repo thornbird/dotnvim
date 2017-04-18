@@ -7,4 +7,6 @@ endif
 set undofile
 exe 'set undodir=' . g:editor_root . '/tmp/vimundo'
 
+autocmd! bufwritepost plugs.vim source %
+
 set mouse=a
