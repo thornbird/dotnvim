@@ -19,7 +19,11 @@ Plug 'tpope/vim-endwise'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'editorconfig/editorconfig-vim'
 
-Plug 'vim-syntastic/syntastic'
+if has("nvim") || v:version >= 800
+  Plug 'w0rp/ale'
+else
+  Plug 'vim-syntastic/syntastic'
+endif
 if has("nvim")
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } |
     Plug 'zchee/deoplete-go', { 'do': 'make' } |
