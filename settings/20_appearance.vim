@@ -4,6 +4,8 @@ set number
 
 set scrolloff=3
 
+set guifont=Monaco\ for\ Powerline:h14
+
 set list
 set listchars=tab:▸\ ,trail:⋅,extends:❯,precedes:❮
 
