@@ -8,7 +8,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'airblade/vim-gitgutter'
 Plug 'henrik/vim-indexed-search'
 Plug 'Raimondi/delimitMate'
-Plug 'majutsushi/tagbar'
+Plug 'majutsushi/tagbar', { 'do': 'npm install -g git+https://github.com/ramitos/jsctags.git' }
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'AndrewRadev/splitjoin.vim'
