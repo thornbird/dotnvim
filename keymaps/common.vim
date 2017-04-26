@@ -59,3 +59,9 @@ nnoremap <silent> <C-t> :tabnew<CR>
 " Format
 vnoremap < <gv
 vnoremap > >gv
+
+" Resize panes
+nnoremap <silent> <M-[> :exe "vertical resize " . (winwidth(0) * 2/3)<CR>
+nnoremap <silent> <M-]> :exe "vertical resize " . (winwidth(0) * 3/2)<CR>
+nnoremap <silent> <M-{> :exe "resize " . (winheight(0) * 2/3)<CR>
+nnoremap <silent> <M-}> :exe "resize " . (winheight(0) * 3/2)<CR>
