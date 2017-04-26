@@ -34,10 +34,6 @@ cnoremap <C-d> <DELETE>
 " Paste mode
 set pastetoggle=<F2>
 
-" Quickfix List
-nnoremap <silent> <Leader>fn :cn<CR>
-nnoremap <silent> <Leader>fp :cp<CR>
-
 " Search
 nnoremap <silent> <leader><space> :noh<cr>
 
