@@ -9,3 +9,5 @@ let g:ctrlp_user_command = {
     \ 2: ['.hg', 'hg --cwd %s locate -I .'],
     \ },
   \ }
+
+nnoremap <silent> <leader>bb :CtrlPBuffer<CR>
