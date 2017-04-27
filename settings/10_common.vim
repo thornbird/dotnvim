@@ -1,11 +1,16 @@
+let tmpdir = g:editor_root . '/tmp'
 if has('nvim')
-  exe 'set viminfo+=n' . g:editor_root . '/tmp/nviminfo'
+  let tmpdir2 = tmpdir . '/nvim'
 else
-  exe 'set viminfo+=n' . g:editor_root . '/tmp/viminfo'
+  let tmpdir2 = tmpdir . '/vim'
 endif
 
+exe 'set viminfo+=n' . tmpdir2 . '/viminfo'
+
+exe 'set directory=' . tmpdir . '/swap//'
+
 set undofile
-exe 'set undodir=' . g:editor_root . '/tmp/vimundo'
+exe 'set undodir=' . tmpdir . '/vimundo'
 
 autocmd! bufwritepost plugs.vim source %
 
