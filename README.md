@@ -14,7 +14,7 @@ nvim -c 'PlugInstall'
 
 * [neovim](https://neovim.io/)
 * [jsctags](https://github.com/ramitos/jsctags) for [tagbar](https://github.com/majutsushi/tagbar)
-* Exuberant Ctags head for Tagbar with Objective-C
+* [universal-ctags](https://github.com/universal-ctags/ctags)
 * [base16-shell](https://github.com/chriskempson/base16-shell) for [base16-vim](https://github.com/chriskempson/base16-vim)
 * Patched font for [airline](https://github.com/vim-airline/vim-airline/)
 * [the_platinum_searcher(pt)](https://github.com/monochromegane/the_platinum_searcher) or [the_silver_searcher(ag)](https://github.com/ggreer/the_silver_searcher)
