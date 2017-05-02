@@ -15,3 +15,7 @@ exe 'set undodir=' . tmpdir . '/vimundo'
 autocmd! bufwritepost plugs.vim source %
 
 set mouse=a
+
+" Exit vim if last buffer is closed which is not buftype=nofile or buftype=quickfix
+" https://superuser.com/a/634193
+"au QuitPre * exe "lclose|cclose" " cclose caused crash
