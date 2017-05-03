@@ -18,6 +18,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-endwise'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'mhinz/vim-startify'
 if has("nvim")
   Plug 'kassio/neoterm'
 end
