@@ -19,6 +19,7 @@ Plug 'tpope/vim-endwise'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mhinz/vim-startify'
+Plug 'ryanoasis/vim-devicons'
 if has("nvim")
   Plug 'kassio/neoterm'
 end

@@ -16,7 +16,9 @@ nvim -c 'PlugInstall'
 * [jsctags](https://github.com/ramitos/jsctags) for [tagbar](https://github.com/majutsushi/tagbar)
 * [universal-ctags](https://github.com/universal-ctags/ctags)
 * [base16-shell](https://github.com/chriskempson/base16-shell) for [base16-vim](https://github.com/chriskempson/base16-vim)
-* Patched font for [airline](https://github.com/vim-airline/vim-airline/)
+* [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) for
+  + [airline](https://github.com/vim-airline/vim-airline/)
+  + [VimDevIcons](https://github.com/ryanoasis/vim-devicons)
 * [the_platinum_searcher(pt)](https://github.com/monochromegane/the_platinum_searcher) or [the_silver_searcher(ag)](https://github.com/ggreer/the_silver_searcher)
 
 ## Update
