@@ -24,6 +24,7 @@ Plug 'luochen1990/rainbow'
 Plug 'yssl/QFEnter'
 Plug 'wellle/targets.vim'
 Plug 'szw/vim-maximizer'
+Plug 'bogado/file-line'
 if has("nvim")
   Plug 'kassio/neoterm'
 end
