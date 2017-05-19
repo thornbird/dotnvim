@@ -22,6 +22,7 @@ Plug 'mhinz/vim-startify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'luochen1990/rainbow'
 Plug 'yssl/QFEnter'
+Plug 'wellle/targets.vim'
 if has("nvim")
   Plug 'kassio/neoterm'
 end
