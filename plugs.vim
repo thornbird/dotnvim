@@ -32,15 +32,15 @@ else
   Plug 'vim-syntastic/syntastic'
 endif
 if has("nvim")
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } |
-    Plug 'zchee/deoplete-go', { 'do': 'make' } |
-    Plug 'zchee/deoplete-jedi' |
-    Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' } |
-    Plug 'fishbullet/deoplete-ruby'
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  \ | Plug 'zchee/deoplete-go', { 'do': 'make' }
+  \ | Plug 'zchee/deoplete-jedi'
+  \ | Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+  \ | Plug 'fishbullet/deoplete-ruby'
   Plug 'Rip-Rip/clang_complete', { 'do': 'nvim -c \"r! git ls-files autoload bin doc plugin\" -c \"$$,$$d _\" -c \"%MkVimball! $@ .\" -c \"q!\" && nvim &< -c \"so %\" -c \"q\"' }
 else
-  Plug 'Valloric/YouCompleteMe' |
-    Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+  Plug 'Valloric/YouCompleteMe'
+  \ | Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
   Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 end
 Plug 'fatih/vim-go', { 'for': 'go' }
