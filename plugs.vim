@@ -23,6 +23,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'luochen1990/rainbow'
 Plug 'yssl/QFEnter'
 Plug 'wellle/targets.vim'
+Plug 'szw/vim-maximizer'
 if has("nvim")
   Plug 'kassio/neoterm'
 end
