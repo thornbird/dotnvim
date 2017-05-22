@@ -16,6 +16,12 @@ autocmd! bufwritepost plugs.vim source %
 
 set mouse=a
 
+" Return to last edit position when opening files (You want this!)
+autocmd BufReadPost *
+     \ if line("'\"") > 0 && line("'\"") <= line("$") |
+     \   exe "normal! g`\"" |
+     \ endif
+
 " Exit vim if last buffer is closed which is not buftype=nofile or buftype=quickfix
 " https://superuser.com/a/634193
 "au QuitPre * exe "lclose|cclose" " cclose caused crash
