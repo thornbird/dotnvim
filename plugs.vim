@@ -25,6 +25,12 @@ Plug 'yssl/QFEnter'
 Plug 'wellle/targets.vim'
 Plug 'szw/vim-maximizer'
 Plug 'bogado/file-line'
+if has('unix')
+  let s:uname = system('uname -s')
+  if s:uname =~ 'Darwin'
+    Plug 'ybian/smartim'
+  endif
+endif
 if has("nvim")
   Plug 'kassio/neoterm'
 end
