@@ -42,10 +42,10 @@ else
 endif
 if has("nvim")
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  \ | Plug 'zchee/deoplete-go', { 'do': 'make' }
-  \ | Plug 'zchee/deoplete-jedi'
-  \ | Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
-  \ | Plug 'fishbullet/deoplete-ruby'
+  \ | Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go' }
+  \ | Plug 'zchee/deoplete-jedi', { 'for': 'python' }
+  \ | Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': 'javascript' }
+  \ | Plug 'fishbullet/deoplete-ruby', { 'for': 'ruby' }
   Plug 'Rip-Rip/clang_complete', { 'do': 'nvim -c \"r! git ls-files autoload bin doc plugin\" -c \"$$,$$d _\" -c \"%MkVimball! $@ .\" -c \"q!\" && nvim &< -c \"so %\" -c \"q\"' }
 else
   Plug 'Valloric/YouCompleteMe'
