@@ -37,7 +37,7 @@ if has("nvim")
 end
 
 if has("nvim") || v:version >= 800
-  Plug 'w0rp/ale', { 'do': 'npm install -g eslint babel-eslint' }
+  Plug 'w0rp/ale', { 'do': 'npm install -g eslint babel-eslint', 'tag': 'v1.4.1' }
 else
   Plug 'vim-syntastic/syntastic'
 endif
