@@ -1,4 +1,4 @@
-# Hanfei Shen' dotvim
+# Jing's dotvim forke from Hanfei Shen
 
 [neovim](https://neovim.io/) is recommanded. [vim](https://www.vim.org/) is also supported but with some limits.
 
@@ -6,7 +6,7 @@
 
 ```bash
 mkdir -p ~/.config
-git clone https://github.com/qqshfox/dotvim.git ~/.config/nvim
+git clone https://github.com/thornbird/dotvim.git ~/.config/nvim
 nvim -c 'PlugInstall'
 ```
 
