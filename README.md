@@ -1,4 +1,4 @@
-# Jing's dotvim forke from Hanfei Shen
+# Jing's dotvim
 
 [neovim](https://neovim.io/) is recommanded. [vim](https://www.vim.org/) is also supported but with some limits.
 Forked from https://github.com/qqshfox/dotvim.git
