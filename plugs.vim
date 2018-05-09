@@ -26,6 +26,7 @@ Plug 'yssl/QFEnter'
 Plug 'wellle/targets.vim'
 Plug 'szw/vim-maximizer'
 Plug 'bogado/file-line'
+Plug 'ngmy/vim-rubocop'
 if has('unix')
   let s:uname = system('uname -s')
   if s:uname =~ 'Darwin'
