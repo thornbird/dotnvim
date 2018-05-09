@@ -4,6 +4,9 @@ else
   let g:editor_root = expand('~/.vim')
 endif
 
+let g:python2_host_prog='/usr/local/bin/python'
+let g:python3_host_prog='/usr/local/bin/python3'
+
 if !filereadable(g:editor_root . '/autoload/plug.vim')
   execute '!curl -fLo ' . g:editor_root . '/autoload/plug.vim --create-dirs https://raw.github.com/junegunn/vim-plug/master/plug.vim'
 endif
